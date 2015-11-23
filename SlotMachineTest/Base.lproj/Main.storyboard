@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g61-88-gpD">
+                                <rect key="frame" x="12" y="461" width="296" height="33"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.39229548887146781" blue="0.57727748647717225" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Spin!">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Spin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oC7-L3-qH7"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gXx-Tg-n4j">
+                                <rect key="frame" x="0.0" y="98" width="328" height="216"/>
+                                <subviews>
+                                    <pickerView contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="Z5X-lU-XRc" customClass="ASPickerView">
+                                        <rect key="frame" x="0.0" y="0.0" width="328" height="216"/>
+                                        <animations/>
+                                    </pickerView>
+                                </subviews>
+                                <animations/>
+                            </stackView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gXx-Tg-n4j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="2wz-gq-7CN"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="g61-88-gpD" secondAttribute="bottom" constant="74" id="MIg-Za-WnW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="g61-88-gpD" secondAttribute="trailing" constant="-4" id="Qv0-hX-1qk"/>
+                            <constraint firstItem="g61-88-gpD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-4" id="c9Z-32-tic"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gXx-Tg-n4j" secondAttribute="trailing" constant="-20" id="jaH-eZ-0Dl"/>
+                            <constraint firstItem="gXx-Tg-n4j" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="78" id="qAR-1l-c7M"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="SlotPickerView" destination="Z5X-lU-XRc" id="ouM-lH-JHM"/>
+                        <outlet property="SpinButton" destination="g61-88-gpD" id="sv6-5L-fvu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="153.59999999999999" y="281.16000000000003"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C8A403F1C02464F00DFFDD7 /* ASPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8A403E1C02464F00DFFDD7 /* ASPickerView.m */; };
+		8C8A40421C027C8000DFFDD7 /* 17896682-Illustration-of-a-letter-box-and-flower-pot-in-a-garden-Stock-Vector.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C8A40411C027C8000DFFDD7 /* 17896682-Illustration-of-a-letter-box-and-flower-pot-in-a-garden-Stock-Vector.jpg */; };
+		8C8A40441C02802700DFFDD7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8A40431C02802700DFFDD7 /* QuartzCore.framework */; };
+		8CAD8BAB1BFF9574008304BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD8BAA1BFF9574008304BD /* main.m */; };
+		8CAD8BAE1BFF9574008304BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD8BAD1BFF9574008304BD /* AppDelegate.m */; };
+		8CAD8BB11BFF9574008304BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD8BB01BFF9574008304BD /* ViewController.m */; };
+		8CAD8BB41BFF9574008304BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CAD8BB21BFF9574008304BD /* Main.storyboard */; };
+		8CAD8BB61BFF9574008304BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CAD8BB51BFF9574008304BD /* Assets.xcassets */; };
+		8CAD8BC31BFFA1CB008304BD /* slotimage3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CAD8BC01BFFA1CB008304BD /* slotimage3.jpg */; };
+		8CAD8BC41BFFA1CB008304BD /* slotimage2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CAD8BC11BFFA1CB008304BD /* slotimage2.jpg */; };
+		8CAD8BC51BFFA1CB008304BD /* slotimage1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CAD8BC21BFFA1CB008304BD /* slotimage1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C8A403D1C02464F00DFFDD7 /* ASPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPickerView.h; sourceTree = "<group>"; };
+		8C8A403E1C02464F00DFFDD7 /* ASPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPickerView.m; sourceTree = "<group>"; };
+		8C8A40411C027C8000DFFDD7 /* 17896682-Illustration-of-a-letter-box-and-flower-pot-in-a-garden-Stock-Vector.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "17896682-Illustration-of-a-letter-box-and-flower-pot-in-a-garden-Stock-Vector.jpg"; sourceTree = "<group>"; };
+		8C8A40431C02802700DFFDD7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8CAD8BA61BFF9574008304BD /* SlotMachineTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotMachineTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAD8BAA1BFF9574008304BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CAD8BAC1BFF9574008304BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8CAD8BAD1BFF9574008304BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8CAD8BAF1BFF9574008304BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8CAD8BB01BFF9574008304BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8CAD8BB31BFF9574008304BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CAD8BB51BFF9574008304BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CAD8BBA1BFF9574008304BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CAD8BC01BFFA1CB008304BD /* slotimage3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slotimage3.jpg; sourceTree = "<group>"; };
+		8CAD8BC11BFFA1CB008304BD /* slotimage2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slotimage2.jpg; sourceTree = "<group>"; };
+		8CAD8BC21BFFA1CB008304BD /* slotimage1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slotimage1.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CAD8BA31BFF9574008304BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8A40441C02802700DFFDD7 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C8A40401C027C5700DFFDD7 /* ASPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				8C8A403D1C02464F00DFFDD7 /* ASPickerView.h */,
+				8C8A403E1C02464F00DFFDD7 /* ASPickerView.m */,
+			);
+			name = ASPickerView;
+			sourceTree = "<group>";
+		};
+		8C8A40451C0281CE00DFFDD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C8A40431C02802700DFFDD7 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CAD8B9D1BFF9573008304BD = {
+			isa = PBXGroup;
+			children = (
+				8C8A40451C0281CE00DFFDD7 /* Frameworks */,
+				8C8A40401C027C5700DFFDD7 /* ASPickerView */,
+				8CAD8BA81BFF9574008304BD /* SlotMachineTest */,
+				8CAD8BA71BFF9574008304BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CAD8BA71BFF9574008304BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD8BA61BFF9574008304BD /* SlotMachineTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CAD8BA81BFF9574008304BD /* SlotMachineTest */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD8BC61BFFA1D7008304BD /* Images */,
+				8CAD8BAC1BFF9574008304BD /* AppDelegate.h */,
+				8CAD8BAD1BFF9574008304BD /* AppDelegate.m */,
+				8CAD8BAF1BFF9574008304BD /* ViewController.h */,
+				8CAD8BB01BFF9574008304BD /* ViewController.m */,
+				8CAD8BB21BFF9574008304BD /* Main.storyboard */,
+				8CAD8BB51BFF9574008304BD /* Assets.xcassets */,
+				8CAD8BBA1BFF9574008304BD /* Info.plist */,
+				8CAD8BA91BFF9574008304BD /* Supporting Files */,
+			);
+			path = SlotMachineTest;
+			sourceTree = "<group>";
+		};
+		8CAD8BA91BFF9574008304BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD8BAA1BFF9574008304BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CAD8BC61BFFA1D7008304BD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8C8A40411C027C8000DFFDD7 /* 17896682-Illustration-of-a-letter-box-and-flower-pot-in-a-garden-Stock-Vector.jpg */,
+				8CAD8BC01BFFA1CB008304BD /* slotimage3.jpg */,
+				8CAD8BC11BFFA1CB008304BD /* slotimage2.jpg */,
+				8CAD8BC21BFFA1CB008304BD /* slotimage1.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CAD8BA51BFF9574008304BD /* SlotMachineTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CAD8BBD1BFF9574008304BD /* Build configuration list for PBXNativeTarget "SlotMachineTest" */;
+			buildPhases = (
+				8CAD8BA21BFF9574008304BD /* Sources */,
+				8CAD8BA31BFF9574008304BD /* Frameworks */,
+				8CAD8BA41BFF9574008304BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlotMachineTest;
+			productName = SlotMachineTest;
+			productReference = 8CAD8BA61BFF9574008304BD /* SlotMachineTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CAD8B9E1BFF9573008304BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Andrei;
+				TargetAttributes = {
+					8CAD8BA51BFF9574008304BD = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 8CAD8BA11BFF9573008304BD /* Build configuration list for PBXProject "SlotMachineTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CAD8B9D1BFF9573008304BD;
+			productRefGroup = 8CAD8BA71BFF9574008304BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CAD8BA51BFF9574008304BD /* SlotMachineTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CAD8BA41BFF9574008304BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAD8BC41BFFA1CB008304BD /* slotimage2.jpg in Resources */,
+				8CAD8BC31BFFA1CB008304BD /* slotimage3.jpg in Resources */,
+				8CAD8BB61BFF9574008304BD /* Assets.xcassets in Resources */,
+				8CAD8BB41BFF9574008304BD /* Main.storyboard in Resources */,
+				8C8A40421C027C8000DFFDD7 /* 17896682-Illustration-of-a-letter-box-and-flower-pot-in-a-garden-Stock-Vector.jpg in Resources */,
+				8CAD8BC51BFFA1CB008304BD /* slotimage1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CAD8BA21BFF9574008304BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAD8BB11BFF9574008304BD /* ViewController.m in Sources */,
+				8CAD8BAE1BFF9574008304BD /* AppDelegate.m in Sources */,
+				8CAD8BAB1BFF9574008304BD /* main.m in Sources */,
+				8C8A403F1C02464F00DFFDD7 /* ASPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CAD8BB21BFF9574008304BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CAD8BB31BFF9574008304BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CAD8BBB1BFF9574008304BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8CAD8BBC1BFF9574008304BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CAD8BBE1BFF9574008304BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = SlotMachineTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cpm.SlotMachineTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CAD8BBF1BFF9574008304BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = SlotMachineTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cpm.SlotMachineTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CAD8BA11BFF9573008304BD /* Build configuration list for PBXProject "SlotMachineTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAD8BBB1BFF9574008304BD /* Debug */,
+				8CAD8BBC1BFF9574008304BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CAD8BBD1BFF9574008304BD /* Build configuration list for PBXNativeTarget "SlotMachineTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAD8BBE1BFF9574008304BD /* Debug */,
+				8CAD8BBF1BFF9574008304BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CAD8B9E1BFF9573008304BD /* Project object */;
+}
